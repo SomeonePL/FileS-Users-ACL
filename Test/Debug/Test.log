@@ -1,0 +1,7 @@
+﻿  Disk.cpp
+c:\users\andrzej\source\repos\test2\test\file\disk.cpp(580): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+c:\users\andrzej\source\repos\test2\test\file\disk.cpp(759): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
+c:\users\andrzej\source\repos\test2\test\file\disk.cpp(793): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+c:\users\andrzej\source\repos\test2\test\file\disk.cpp(803): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
+c:\users\andrzej\source\repos\test2\test\file\disk.cpp(943): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Test.vcxproj -> C:\Users\Andrzej\source\repos\Test2\Debug\Test.exe

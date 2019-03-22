@@ -1,0 +1,36 @@
+﻿//System plików operacje//
+mkf 		(string nazwa, string dane) -> tworzy plik o podanej nazwie i danymi "make file"
+mef			(string nazwa)	-> 	tworzy pusty plik "make empty file"
+pb			(int index) 	-> 	wypisuje blok o podanym indexie "print block"
+hdd			()				-> 	wypisuje zawartosc całego dysku "hard disk drive"
+pf		(string nazwa) -> wypisuje scieżkę do pliku o podanej nazwie "path to file"
+af			(string nazwa, string dane)	-> dopisuje do podanego pliku	"append file"
+rmf 		(string nazwa) -> usuwa plik o podanej nazwie "remove file"
+owf 		(string nazwa, string dane)	->	nadpisuje plik o podanej nazwie "overwrite file"
+pib			(int index)		-> 	wypisuje blok indeksowy o podanym numerze w czytelnej formie "print index block"
+pfib		(string nazwa)	->	wypisuje blok indeksowy pliku o podanej nazwie "print file index block"
+dir			()				->	wypisuje zawartosc katalogu "directory
+fpath		(string nazwa)	->	wypisuje scieżke do pliku "file path"
+cp			(string nazwa, int poziom)	->	zmienia we wpisie katalogowym wartosc poziomu dostepu "change permissions"
+format		()				->	formatuje dysk, usuwa wpisy katalogowe
+size		()		-> pokazuje zajętość dysku
+free		()		-> pokazuje zajętość bloków
+
+
+
+// Dostep do plikow i obsluga uzytkownikow //
+cr 		createUser()							//Tworzenie uzytkownikow
+prcr 	printCurrentLogged() 					//Wypisywanie obecnie zalogowanego uzytkownika
+li 		logIn() 								//Logowanie + automatyczne wylogowanie
+du 		deleteUser(username) 					//Usuwanie uzytkownika
+vul 	vievUserList() 							//Wypisywanie listy uzytkownikows
+vsul 	vievStandardUserGroup() 				//Wypisywanie listy Standardowych uzytkownikow
+vaul 	vievAdminUserGroup() 					//Wypisywanie listy Administratorow
+autsg 	addUserToStandardUserGroup username)	//Dodawanie uzytkownika do listy Standardowej
+autag 	addUserToAdminGroup(username);			//Dodawanie uzytkownika do listy Administratorow
+
+val      vievAclList();							//Wypisywanie wszystkich list ACL
+vfa      vievFileAcl(filename);					//Wypisywanie listy Acl konkretnego pliku
+sap		 setAdditionalPermissions(filename);	//Ustanawianie dodatkowych wpisów ACL / zmiana wpisów
+
+	  
